@@ -1,0 +1,86 @@
+# Facebook
+pm uninstall -k --user 0 'com.facebook.services'
+pm uninstall -k --user 0 'com.facebook.katana'
+pm uninstall -k --user 0 'com.facebook.system'
+pm uninstall -k --user 0 'com.facebook.appmanager'
+
+# Bixby
+pm uninstall -k --user 0 'com.samsung.android.app.settings.bixby'
+pm uninstall -k --user 0 'com.samsung.systemui.bixby2'
+pm uninstall -k --user 0 'com.samsung.android.bixby.service'
+pm uninstall -k --user 0 'com.samsung.android.bixby.agent'
+pm uninstall -k --user 0 'com.samsung.android.bixbyvision.framework'
+pm uninstall -k --user 0 'com.samsung.android.bixby.wakeup'
+pm uninstall -k --user 0 'com.samsung.android.bixby.agent.dummy'
+pm uninstall -k --user 0 'com.samsung.android.app.routines'
+pm uninstall -k --user 0 'com.samsung.android.visionintelligence'
+pm uninstall -k --user 0 'com.samsung.android.visionarapps'
+
+# Dex
+pm uninstall -k --user 0 'com.sec.android.app.dexonpc'
+pm uninstall -k --user 0 'com.sec.android.app.desktoplauncher'
+pm uninstall -k --user 0 'com.samsung.desktopsystemui'
+pm uninstall -k --user 0 'com.sec.android.desktopmode.uiservice'
+
+# Samsung Smart Switch Mobile
+pm uninstall -k --user 0 'com.samsung.android.smartswitchassistant'
+pm uninstall -k --user 0 'com.sec.android.easyMover.Agent'
+pm uninstall -k --user 0 'com.sec.android.easyMover'
+
+# Themes
+pm uninstall -k --user 0 'com.android.theme.icon.square'
+pm uninstall -k --user 0 'com.android.theme.color.cinnamon'
+pm uninstall -k --user 0 'com.android.theme.icon_pack.rounded.systemui'
+pm uninstall -k --user 0 'com.android.theme.icon_pack.rounded.android'
+pm uninstall -k --user 0 'com.android.theme.icon_pack.circular.themepicker'
+pm uninstall -k --user 0 'com.android.theme.color.black'
+pm uninstall -k --user 0 'com.android.theme.color.green'
+pm uninstall -k --user 0 'com.android.theme.color.ocean'
+pm uninstall -k --user 0 'com.android.theme.color.space'
+pm uninstall -k --user 0 'com.android.theme.icon_pack.rounded.launcher'
+pm uninstall -k --user 0 'com.android.theme.icon_pack.filled.settings'
+pm uninstall -k --user 0 'com.android.theme.icon_pack.circular.settings'
+pm uninstall -k --user 0 'com.android.theme.icon.teardrop'
+pm uninstall -k --user 0 'com.android.theme.icon_pack.filled.systemui'
+pm uninstall -k --user 0 'com.android.theme.icon_pack.filled.android'
+pm uninstall -k --user 0 'com.android.theme.icon_pack.circular.systemui'
+pm uninstall -k --user 0 'com.android.theme.icon.squircle'
+pm uninstall -k --user 0 'com.android.theme.icon_pack.filled.launcher'
+pm uninstall -k --user 0 'com.android.theme.icon_pack.circular.launcher'
+pm uninstall -k --user 0 'com.android.theme.icon_pack.filled.themepicker'
+pm uninstall -k --user 0 'com.android.theme.color.orchid'
+pm uninstall -k --user 0 'com.android.theme.color.purple'
+pm uninstall -k --user 0 'com.android.theme.icon.roundedrect'
+pm uninstall -k --user 0 'com.android.theme.icon_pack.rounded.settings'
+pm uninstall -k --user 0 'com.android.theme.icon_pack.circular.android'
+
+# ANT +
+pm uninstall -k --user 0 'com.dsi.ant.service.socket'
+pm uninstall -k --user 0 'com.dsi.ant.sample.acquirechannels'
+pm uninstall -k --user 0 'com.dsi.ant.plugins.antplus'
+pm uninstall -k --user 0 'com.dsi.ant.server'
+
+# Samsung partner
+pm uninstall -k --user 0 'com.hiya.star'
+pm uninstall -k --user 0 'de.axelspringer.yana.zeropage'
+pm uninstall -k --user 0 'com.diotek.sec.lookup.dictionary'
+
+# 'Murican carrier (AT&T) bloat & spyware
+pm uninstall -k --user 0 'com.att.myWireless'
+pm uninstall -k --user 0 'com.att.mobilesecurity'
+pm uninstall -k --user 0 'com.att.lqi'
+pm uninstall -k --user 0 'com.att.dh'
+pm uninstall -k --user 0 'com.att.tv'
+pm uninstall -k --user 0 'com.att.android.attsmartwifi'
+pm uninstall -k --user 0 'com.synchronoss.dcs.att.r2g'
+pm uninstall -k --user 0 'com.dti.att' # AT&T spyware, check out all the permissions it requires: https://knowledge.protektoid.com/apps/com.dti.att/7a36d4f5f00bae044566221400719c75ea2f4f33bc2578a7f8210f36d718a8d6
+pm uninstall -k --user 0 'com.att.callprotect'
+pm uninstall -k --user 0 'com.samsung.attvvm' # AT&T visual voicemail, leave if you need.
+pm uninstall -k --user 0 'com.ws.dm' # AT&T update manager, leave if you need.
+pm uninstall -k --user 0 'com.matchboxmobile.wisp' # AT&T hotspots, idk? leave if you need.
+
+# non-uninstallable (through the phone itself) "freebies" from our favorite duo, AT&T and Samsung
+pm uninstall -k --user 0 'com.bleacherreport.android.teamstream' # BS news source
+pm uninstall -k --user 0 'com.cnn.mobile.android.phone' # BS news source
+pm uninstall -k --user 0 'com.amazon.appmanager' # Big man amazon
+pm uninstall -k --user 0 'com.wb.goog.got.conquest' # This is a GOT game, which is not uninstallable from the launcher. Yeeeeeees, I want that taking up multiple GB on my phone, thank you for the freebie!
